@@ -26,8 +26,7 @@
   min-width: 150px;
   filter: contrast(500%);
 }
-.menu {
-}
+
 .menu ul {
   display: flex;
   justify-content: space-between;
@@ -43,6 +42,6 @@
 }
 .menu ul li a {
   text-decoration: none;
-  color: rgb(27, 4, 4);
+  color: whitesmoke;
   font-family: "Josefin Sans", sans-serif;
 }
