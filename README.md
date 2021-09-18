@@ -1,1 +1,3 @@
-# Navbar--HTML-y-CSS
+# Ejercicio de Challenge de NUCBA
+
+Aqui ire publicando los ejercicios propuestos por la cursada en NUCBA orientados a completar una web usada como Portfolio propio...
