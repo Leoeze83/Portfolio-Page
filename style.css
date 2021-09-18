@@ -1,47 +1,53 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap");
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
 
+/* GENERAL */
 * {
-  margin: 2px;
-  padding: 5px;
-  box-sizing: border-box;
+  margin: 1px;
+  padding: 1px;
 }
 
+.fondo {
+  width: 100%;
+  margin: 1px;
+  padding: auto;
+}
+/* NAVBAR */
+header {
+  display: block;
+  margin: 1px;
+  padding: 1px;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
 .navbar {
-  background-color: rgb(95, 133, 177);
-  height: 90px;
-  padding: 10px 50px;
+  background: rgba(0, 0, 0, 0.753);
+  height: 79px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+nav:hover {
+  background-color: rgb(175, 175, 175);
 }
-.logo img {
-  width: 100%;
-  max-width: 220px;
-  min-width: 150px;
-  filter: contrast(500%);
-}
-
 .menu ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
 }
-
 .menu ul li {
   margin: 0 25px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.menu ul li a {
+.menu li a {
   text-decoration: none;
-  color: whitesmoke;
-  font-family: "Josefin Sans", sans-serif;
+  color: #f77f00;
+  font-family: "Merriweather", serif;
+  font-size: 1.2em;
 }
+/* primer seccion */
