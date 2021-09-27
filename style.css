@@ -6,7 +6,7 @@
 * {
   padding: 1%;
   margin: 0;
-  background-color: black;
+  background-color: #111;
   font-family: "Michroma", sans-serif;
 }
 
@@ -59,18 +59,16 @@ header {
   padding: 1%;
 }
 .perfil p {
-  color: blueviolet;
+  color: rgba(137, 43, 226, 0.911);
   justify-content: center;
 }
 
 h1 {
   color: #f77f00;
-  color: ;
   font-size: 2em;
 }
 h2 {
   color: #f77f00;
-  color: ;
   font-size: 1.5em;
 }
 .skills {
@@ -89,3 +87,5 @@ h2 {
   width: auto;
   height: 60px;
 }
+
+/* responsive */
